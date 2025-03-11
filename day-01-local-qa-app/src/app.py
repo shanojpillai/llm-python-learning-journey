@@ -202,5 +202,7 @@ if prompt := st.chat_input("Ask a question..."):
 st.markdown("---")
 st.markdown(
     "Built with Streamlit, Ollama, and HuggingFace. "
-    "Running LLMs locally on CPU."
+    "Running LLMs locally on CPU. "
+    "<br><b>Author:</b> Shanoj",
+    unsafe_allow_html=True
 )
