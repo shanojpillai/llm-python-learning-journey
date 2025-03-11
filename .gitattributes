@@ -1,0 +1,2 @@
+myenv/Lib/site-packages/torch/lib/*.dll filter=lfs diff=lfs merge=lfs -text
+myenv/Lib/site-packages/torch/lib/*.lib filter=lfs diff=lfs merge=lfs -text
