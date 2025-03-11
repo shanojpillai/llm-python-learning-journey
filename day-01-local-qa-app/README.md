@@ -1,5 +1,8 @@
 # LocalLLM Q&A Assistant: Project Documentation
 
+![image](https://github.com/user-attachments/assets/59d6b3bc-dbd4-4f27-84f4-598d2b13307f)
+
+
 ## Project Purpose
 This project serves as a practical introduction to building applications with Large Language Models (LLMs), specifically focusing on running open-source models locally on CPU hardware. By creating this Q&A assistant, you'll learn essential skills that form the foundation for more advanced LLM-based applications while practicing good software development practices.
 
