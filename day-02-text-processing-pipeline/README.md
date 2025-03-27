@@ -12,9 +12,10 @@ This interactive Streamlit application provides a comprehensive exploration of N
 
 ## 🎥 Theoretical Foundation
 
-[![Theoretical Background Video](https://img.youtube.com/vi/bOa-X_tmD7A/0.jpg)](https://www.youtube.com/watch?v=bOa-X_tmD7A)
+[![Theoretical Background Video](https://img.youtube.com/vi/ydFmewupLAE/0.jpg)](https://www.youtube.com/watch?v=ydFmewupLAE&t=93s)
 
-**Theoretical Video Walkthrough**: [NLP Text Processing Fundamentals](https://www.youtube.com/watch?v=bOa-X_tmD7A)
+**Theoretical Video Walkthrough**: [How LLMs Understand Text: Tokenization, Embeddings & the Secret Language of AI](https://www.youtube.com/watch?v=ydFmewupLAE&t=93s)
+
 
 ### 🌟 Key Features
 
