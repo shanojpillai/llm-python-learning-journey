@@ -1,4 +1,4 @@
-![streamlit-ui](https://github.com/user-attachments/assets/39cb944d-790a-4b85-ae83-2a83d747e820)# NLP Text Processing Pipeline 🧠📊
+# NLP Text Processing Pipeline 🧠📊
 
 ![image](https://github.com/user-attachments/assets/fb28151e-c117-407a-ba0d-771e22fe93fe)
 
