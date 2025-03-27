@@ -36,19 +36,40 @@ This interactive Streamlit application provides a comprehensive exploration of N
 ```
 day-02-text-processing-pipeline/
 │
-├── src/
-│   ├── preprocessing/
-│   │   ├── cleaner.py
-│   │   └── tokenization.py
-│   ├── vocabulary/
-│   │   └── vocab_builder.py
-│   └── models/
-│       ├── embeddings.py
-│       └── language_model.py
+├── data/                       # Data directory
+│   ├── raw/                    # Raw input data
+│   │   └── sample_headlines.txt  # Sample text data
+│   └── processed/              # Processed data outputs
 │
-├── app.py
-├── requirements.txt
-└── README.md
+├── src/                        # Source code
+│   ├── preprocessing/          # Text preprocessing modules
+│   │   ├── cleaner.py          # Text cleaning utilities
+│   │   └── tokenization.py     # Tokenization implementations
+│   │
+│   ├── vocabulary/             # Vocabulary building
+│   │   └── vocab_builder.py    # Vocabulary construction
+│   │
+│   ├── models/                 # Model implementations
+│   │   ├── embeddings.py       # Word embedding utilities
+│   │   └── language_model.py   # Simple language model
+│   │
+│   └── visualization/          # Visualization utilities
+│       └── visualize.py        # Plotting functions
+│
+├── notebooks/                  # Jupyter notebooks
+│   ├── 01_tokenization_exploration.ipynb
+│   └── 02_language_model_exploration.ipynb
+│
+├── tests/                      # Unit tests
+│   ├── test_preprocessing.py
+│   ├── test_vocabulary.py
+│   ├── test_embeddings.py
+│   └── test_language_model.py
+│
+├── app.py                      # Streamlit interactive application
+├── requirements.txt            # Project dependencies
+└── README.md                   # Project documentation
+
 ```
 
 ## 🔧 Installation
