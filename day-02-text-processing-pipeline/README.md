@@ -6,11 +6,6 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/shanojpillai/day-02-text-processing-pipeline/blob/main/LICENSE)
 [![NLP](https://img.shields.io/badge/NLP-Text%20Processing-green.svg)]()
 
-<div align="center">
-    <img src="https://img.shields.io/badge/Made%20with-Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit" alt="Made with Streamlit"/>
-    <img src="https://img.shields.io/badge/Made%20with-Python-3776AB?style=for-the-badge&logo=python" alt="Made with Python"/>
-</div>
-
 ## 📘 Project Overview
 
 This interactive Streamlit application provides a comprehensive exploration of Natural Language Processing (NLP) text processing fundamentals. Designed for developers and students interested in understanding the core mechanics of how language models transform text.
