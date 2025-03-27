@@ -1,0 +1,15 @@
+day-02-text-processing-pipeline/
+├── src/
+│   ├── models/
+│   ├── preprocessing/
+│   │   ├── cleaner.py
+│   │   ├── tokenization.py
+│   │   ├── __init__.py
+│   ├── visualization/
+│   ├── vocabulary/
+│   ├── __pycache__/
+├── data/
+├── notebooks/
+├── tests/
+├── app.py
+├── requirements.txt
