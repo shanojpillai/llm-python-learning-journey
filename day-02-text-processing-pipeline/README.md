@@ -1,4 +1,7 @@
-# NLP Text Processing Pipeline 🧠📊
+![streamlit-ui](https://github.com/user-attachments/assets/39cb944d-790a-4b85-ae83-2a83d747e820)# NLP Text Processing Pipeline 🧠📊
+
+![image](https://github.com/user-attachments/assets/fb28151e-c117-407a-ba0d-771e22fe93fe)
+
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/shanojpillai/day-02-text-processing-pipeline/blob/main/LICENSE)
 [![Python Versions](https://img.shields.io/badge/python-3.8%20|%203.9%20|%203.10-blue.svg)](https://www.python.org/downloads/)
@@ -88,6 +91,7 @@ day-02-text-processing-pipeline/
 ```bash
 streamlit run app.py
 ```
+![Screenshot 2025-03-27 183745](https://github.com/user-attachments/assets/75bc449b-49a4-4bd8-a534-6c305db273a8)
 
 ## 🔍 Exploring the Pipeline
 
@@ -133,7 +137,6 @@ This project is open source and available under the MIT License. See the [LICENS
 
 **Shanoj**
 - 🌐 GitHub: [shanojpillai](https://github.com/shanojpillai)
-- 📧 Email: shanoj.pillai@example.com
 
 ## 🙏 Acknowledgments
 
