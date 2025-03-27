@@ -10,6 +10,12 @@
 
 This interactive Streamlit application provides a comprehensive exploration of Natural Language Processing (NLP) text processing fundamentals. Designed for developers and students interested in understanding the core mechanics of how language models transform text.
 
+## 🎥 Theoretical Foundation
+
+[![Theoretical Background Video](https://img.youtube.com/vi/bOa-X_tmD7A/0.jpg)](https://www.youtube.com/watch?v=bOa-X_tmD7A)
+
+**Theoretical Video Walkthrough**: [NLP Text Processing Fundamentals](https://www.youtube.com/watch?v=bOa-X_tmD7A)
+
 ### 🌟 Key Features
 
 - **Text Preprocessing**: Clean and normalize raw text
@@ -131,6 +137,7 @@ The application provides multiple tabs to explore NLP processing:
 - Learn how vocabularies are constructed
 - Gain insights into how language models process text
 
+  
 ## 🤝 Contributing
 
 1. Fork the repository
