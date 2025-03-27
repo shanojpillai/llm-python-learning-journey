@@ -4,8 +4,6 @@
 
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/shanojpillai/day-02-text-processing-pipeline/blob/main/LICENSE)
-[![Python Versions](https://img.shields.io/badge/python-3.8%20|%203.9%20|%203.10-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit App](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
 [![NLP](https://img.shields.io/badge/NLP-Text%20Processing-green.svg)]()
 
 <div align="center">
