@@ -2,20 +2,12 @@
 Tokenization utilities for text processing.
 """
 import re
-import nltk
-from nltk.tokenize import word_tokenize
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Download necessary NLTK data
-try:
-    nltk.data.find('tokenizers/punkt')
-except LookupError:
-    nltk.download('punkt')
-
 def basic_word_tokenize(text):
     """
-    Basic word-level tokenization using NLTK's word_tokenize.
+    Basic word-level tokenization using a simple approach instead of NLTK.
     
     Args:
         text (str): The input text to tokenize
@@ -23,7 +15,35 @@ def basic_word_tokenize(text):
     Returns:
         list: List of word tokens
     """
-    return word_tokenize(text)
+    # Handle empty string case
+    if not text:
+        return []
+    
+    # Simple tokenization: split by whitespace first
+    words = text.split()
+    
+    # Handle punctuation as separate tokens
+    result = []
+    for word in words:
+        # Extract leading punctuation
+        start = 0
+        while start < len(word) and not word[start].isalnum():
+            result.append(word[start])
+            start += 1
+        
+        # Extract word without punctuation
+        end = len(word)
+        while end > start and not word[end - 1].isalnum():
+            end -= 1
+        
+        if start < end:
+            result.append(word[start:end])
+        
+        # Extract trailing punctuation
+        for i in range(end, len(word)):
+            result.append(word[i])
+    
+    return result
 
 def advanced_tokenize(text):
     """
